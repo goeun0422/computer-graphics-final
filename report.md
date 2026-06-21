@@ -1,5 +1,8 @@
 <img width="1470" height="956" alt="img5" src="https://github.com/user-attachments/assets/deedcd5c-1aa6-41f1-a098-3f92ab982bb9" />
 <img width="1470" height="956" alt="img1" src="https://github.com/user-attachments/assets/767917d7-e827-4d45-a0dd-ec977db6a0b3" />
+<img width="1470" height="956" alt="img4" src="https://github.com/user-attachments/assets/5400de57-fac6-4f08-9460-21cdba90be12" />
+<img width="1470" height="956" alt="img3" src="https://github.com/user-attachments/assets/e61e75df-e6ac-4f44-aa35-58b0f8202f1e" />
+
 # [최종 과제] Dodge the Spheres: 1인칭 서바이벌 게임
 
 **이름:** 이고은
@@ -19,7 +22,7 @@
 
 * **웹 구동 링크:** [https://stackblitz.com/github/goeun0422/computer-graphics-final](https://stackblitz.com/github/goeun0422/computer-graphics-final)
 
-![게임 플레이 메인 화면 캡처](img1.jpg)
+<img width="1470" height="956" alt="img1" src="https://github.com/user-attachments/assets/767917d7-e827-4d45-a0dd-ec977db6a0b3" />
 *그림 1: 어두운 방 안에서 구체들이 날아오고 있는 역동적인 전체 플레이 대기 화면*
 
 ---
@@ -38,7 +41,7 @@
 빛과 표면의 물리적 상호작용을 처리하기 위해 `MeshStandardMaterial`을 사용하여 물리 기반 렌더링(PBR)을 구현했습니다. 아주 어두운 씬 배경광 위에 카메라에 부착된 강렬한 `PointLight`(색상: 0xfff1d0)가 직접광(Direct Lighting)으로 작용합니다.
 플래시라이트의 빛이 다가오는 구체에 부딪힐 때, 정반사(Specular Highlight)가 발생하여 표면에 미려한 광택이 맺히며, 빛이 닿지 않는 반대편은 Shaded Side로 어둡게 처리됩니다. 또한 빛이 물체에 막히는 공간에는 그림자 맵(`shadowMap`) 기술을 활성화하고 `PCFSoftShadowMap`을 적용하여 동적인 실시간 그림자(Shadow)를 부드럽고 명확하게 표현했습니다.
 
-![빛과 그림자 적용 화면 캡처](./images/img5.jpg)
+<img width="1470" height="956" alt="img5" src="https://github.com/user-attachments/assets/deedcd5c-1aa6-41f1-a098-3f92ab982bb9" />
 *그림 2: 플래시라이트를 받아 구체 표면에 광택(Specular Highlight)이 맺혀 있고, 그 뒤로 길게 바닥에 실시간 그림자(Shadow)가 드리워진 장면*
 
 ---
@@ -51,7 +54,7 @@
 * **실시간 레이캐스팅 및 간접광 표현:** 프루브에서 사방으로 Ray를 쏘아 플레이어(광원)와의 거리 및 반사광을 계산합니다. 단일 플래시라이트에서 발생한 빛이 벽면이나 바닥에 부딪힌 뒤, 빛이 직접 닿지 않는 구체의 어두운 뒷면이나 구석진 공간까지 빛이 반사되어 묻어나는 동적 난반사(Diffuse) 간접 조명 효과를 시뮬레이션 하였습니다.
 * **디버그 모드 (P키 토글 구현):** 채점 시 GI 기술 적용 여부를 시각적으로 명확하게 확인하실 수 있도록, 게임 구동 중 `P`키를 누르면 숨겨져 있던 프로브 격자(Wireframe)가 화면에 나타나는 토글 기능을 추가했습니다.
 
-![DDGI 프로브 시각화 화면 캡처](./images/img3.jpg)
+<img width="1470" height="956" alt="img3" src="https://github.com/user-attachments/assets/e61e75df-e6ac-4f44-aa35-58b0f8202f1e" />
 *그림 3: P키를 눌러 활성화한 DDGI 프로브 격자 시각화 모습. 공간 전체에 배치된 프로브가 빛을 연산하며, 간접광 효과로 인해 완전한 암흑이 아니라 바닥의 색상이 은은하게 반사됨.*
 
 ---
