@@ -47,7 +47,7 @@ function Game() {
     const ambient = new THREE.AmbientLight(0xffffff, 0.03);
     scene.add(ambient);
 
-    const flashlight = new THREE.PointLight(0xfff1d0, 3.2, 18, 1.4);
+    const flashlight = new THREE.PointLight(0xfff1d0, 2.0, 12, 1.4);
     flashlight.castShadow = true;
     flashlight.shadow.mapSize.set(1024, 1024);
     flashlight.shadow.bias = -0.0008;
@@ -224,6 +224,12 @@ function Game() {
         e.preventDefault();
         tryStart();
         return;
+      }
+      // P키를 누르면 DDGI 프로브 시각화 토글
+      if (e.code === "KeyP") {
+        ddgiProbes.forEach(probe => {
+          probe.mesh.visible = !probe.mesh.visible;
+        });
       }
       keys[e.code] = true;
     };
