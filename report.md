@@ -17,7 +17,7 @@
 
 * **웹 구동 링크:** [https://stackblitz.com/github/goeun0422/computer-graphics-final](https://stackblitz.com/github/goeun0422/computer-graphics-final)
 
-![게임 플레이 메인 화면 캡처](./images/img1.jpg)
+![게임 플레이 메인 화면 캡처](https://raw.githubusercontent.com/goeun0422/computer-graphics-final/main/images/img1.jpg)
 *그림 1: 어두운 방 안에서 구체들이 날아오고 있는 역동적인 전체 플레이 대기 화면*
 
 ---
