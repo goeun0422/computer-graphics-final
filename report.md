@@ -1,8 +1,3 @@
-<img width="1470" height="956" alt="img5" src="https://github.com/user-attachments/assets/deedcd5c-1aa6-41f1-a098-3f92ab982bb9" />
-<img width="1470" height="956" alt="img1" src="https://github.com/user-attachments/assets/767917d7-e827-4d45-a0dd-ec977db6a0b3" />
-<img width="1470" height="956" alt="img4" src="https://github.com/user-attachments/assets/5400de57-fac6-4f08-9460-21cdba90be12" />
-<img width="1470" height="956" alt="img3" src="https://github.com/user-attachments/assets/e61e75df-e6ac-4f44-aa35-58b0f8202f1e" />
-
 # [최종 과제] Dodge the Spheres: 1인칭 서바이벌 게임
 
 **이름:** 이고은
@@ -65,5 +60,5 @@
 * **시작 및 재시작:** 화면 클릭, Space, 또는 Enter
 * **디버그 모드:** P 키 (DDGI 프로브 격자 시각화 켜기/끄기)
 
-![게임 오버 및 HUD 화면 캡처](./images/img4.jpg)
+<img width="1470" height="956" alt="img4" src="https://github.com/user-attachments/assets/5400de57-fac6-4f08-9460-21cdba90be12" />
 *그림 4: Game Over 시 최고 기록(Best)과 현재 생존 시간을 보여주는 UI*
