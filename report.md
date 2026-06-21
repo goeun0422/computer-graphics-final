@@ -1,3 +1,5 @@
+<img width="1470" height="956" alt="img5" src="https://github.com/user-attachments/assets/deedcd5c-1aa6-41f1-a098-3f92ab982bb9" />
+<img width="1470" height="956" alt="img1" src="https://github.com/user-attachments/assets/767917d7-e827-4d45-a0dd-ec977db6a0b3" />
 # [최종 과제] Dodge the Spheres: 1인칭 서바이벌 게임
 
 **이름:** 이고은
