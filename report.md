@@ -15,7 +15,7 @@
 - **라이브러리**: React, Three.js, TanStack Router
 - **렌더링**: WebGL 기반 래스터라이저(`THREE.WebGLRenderer`) 사용, 안티앨리어싱(Antialias) 및 PCFSoftShadowMap 그림자 렌더링 적용.
 
-* **웹 구동 링크:** [https://stackblitz.com/github/goeun0422/computer-graphics-final](https://stackblitz.com/github/goeun0422/computer-graphics-final)
+* **웹 구동 링크:** [https://stackblitz.com/github/goeun0422/computer-graphics-final?file=package.json](https://stackblitz.com/github/goeun0422/computer-graphics-final?file=package.json)
 
 <img width="1470" height="956" alt="img1" src="https://github.com/user-attachments/assets/767917d7-e827-4d45-a0dd-ec977db6a0b3" />
 *그림 1: 어두운 방 안에서 구체들이 날아오고 있는 역동적인 전체 플레이 대기 화면*
